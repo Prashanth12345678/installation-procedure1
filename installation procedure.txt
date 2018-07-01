@@ -1,0 +1,30 @@
+Tensorflow installation using anaconda prompt
+
+Step1:installation
+*First install anaconda
+* conda create -n tensorflow pip python=3.5
+*activate tensorflow
+*pip install --ignore-installed --upgrade tensorflow(for CPU-only version)
+*pip install --ignore-installed --upgrade tensorflow-gpu
+
+Step2:Validation
+*Type python command and enter into the  terminal
+*Check with simple program as follows
+
+import tensorflow as tf
+hello = tf.constant('first program!')
+sess = tf.Session()
+ print(sess.run(hello))
+
+*Ouput shoud be as follows
+first program!
+
+
+Pycharm installation
+Step1:download  and configure it
+
+Python installlation
+*download and path setup
+
+Anaconda  installation
+*
